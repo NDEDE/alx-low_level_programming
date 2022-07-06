@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** main - prints putchar.
+/** 
+ * main - prints putchar.
  * Return: Alwasys 0.
  */
 i
