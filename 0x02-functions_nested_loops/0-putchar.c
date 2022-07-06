@@ -3,6 +3,7 @@
 /** main - prints putchar.
  * Return: Alwasys 0.
  */
+
 int main(void)
 {
 	_putchar("_");
