@@ -4,24 +4,20 @@
  *
  */
 
-#include "putchar.h"
+#include "stdio.h"
+#include "main.h"
 
 /**
  * main -Prints "-putchar" followed by a new linee.
  *
  * Return: Always 0.
  */
-int main(void)
+int print_alphabet(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_puthcar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\r');
-
-	return (0);
+	char i;
+	for(i = 'a'; i <= 'z'; i++)
+{
+	putchar (i);
+}
+	putchar('\n');
 }
