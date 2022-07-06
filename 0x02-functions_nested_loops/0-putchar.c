@@ -1,9 +1,9 @@
 #include "main.h";
 
 /** 
- * main - prints putchar
- * Return: Alwasys 0.
- */
+* main - prints putchar
+* Return: Alwasys 0.
+*/
 
 int main(void)
 {
