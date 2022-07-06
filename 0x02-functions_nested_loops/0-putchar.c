@@ -1,8 +1,7 @@
 #include "main.h";
-
 /** 
 * main - prints putchar
-* Return: Alwasys 0.
+* Return: Always 0.
 */
 
 int main(void)
