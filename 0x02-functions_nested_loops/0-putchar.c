@@ -4,7 +4,7 @@
  * main - prints putchar.
  * Return: Alwasys 0.
  */
-i
+
 int main(void)
 {
 	_putchar('_');
