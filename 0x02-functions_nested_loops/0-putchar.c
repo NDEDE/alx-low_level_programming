@@ -8,7 +8,7 @@
 #include "main.h"
 
 /**
- * main -Prints "-putchar" followed by a new linee.
+ * main -Prints "prin_alphabet" followed by a new linee.
  *
  * Return: Always 0.
  */
