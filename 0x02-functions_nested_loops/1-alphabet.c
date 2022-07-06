@@ -3,17 +3,17 @@
  * Auth: Dennice Ndede
  */
 
-#include "_putchar.h"
+#include "main.h"
 
 /**
- * print_alphabet - Check the code for alx student
+ * print_alphabet - prints the lowercase alphbets
  */
 void print_alphabet(void)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+	int j;
+	for (j = 'a'; j <= 'z' j++)
+	{
+	    _putchar(j);
+	}
+	 putchar('\n');
 }
