@@ -3,11 +3,10 @@
  * Auth: Dennice Ndede
  */
 
-#include "stdio.h"
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line
+ * print_alphabet - Check the code for alx student
  */
 void print_alphabet(void)
 {
