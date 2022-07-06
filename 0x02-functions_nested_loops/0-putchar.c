@@ -1,23 +1,20 @@
-/*
- * File: 0-putchar.c
- * Auth: Dennice Ndede
- *
- */
-
-#include "stdio.h"
 #include "main.h"
 
-/**
- * main -Prints "print_alphabet" followed by a new linee.
- *
- * Return: Always 0.
+/** main - prints putchar.
+ * Return: Alwasys 0.
  */
-void print_alphabet(void)
+int main(void)
 {
-	char i;
-	for (i = 'a'; i <= 'z'; i++)
-{
-	putchar (i);
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar("\n");
+
+	return (0);
 }
-	putchar('\n');
-}
+
