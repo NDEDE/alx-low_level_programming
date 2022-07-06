@@ -3,7 +3,7 @@
  * Auth: Dennice Ndede
  */
 
-#include "holberton.h"
+#include "_putchar.h"
 
 /**
  * print_alphabet - Check the code for alx student
