@@ -14,7 +14,7 @@
  * Return: void
  */
 
-void print_line(char *c, int s, int)
+void print_line(char *c, int s, int l)
 {
 	int j, k;
 
@@ -46,7 +46,7 @@ void print_buffer(char *b, int size)
 {
 	int i;
 
-	for (i = 0; i <= (size - l) / 10 && size; i++)
+	for (i = 0; i <= (size - 1) / 10 && size; i++)
 	{
 		printf("%08x: ", i * 10);
 		if (i < size / 10)
@@ -55,7 +55,7 @@ void print_buffer(char *b, int size)
 		}
 		else
 		{
-			print_line(b, size % 10 - l, i);
+			print_line(b, size % 10 - 1, i);
 		}
 		putchar('\n');
 	}
