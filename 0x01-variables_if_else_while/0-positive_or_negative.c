@@ -2,17 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- * main - Determine if a random number is positive, negative or zero.
- (*
- * Return: 0 on success
- */
-int main(void)
+
+void positive_or_negative(int i)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = i;
 	/* your code goes there */
 	if (n < 0)
 		printf("%i is negative\n", n);
@@ -22,4 +18,17 @@ int main(void)
 		printf("%i is zero\n", n);
 	return (0);
 
+}
+/**
+ * main - debugging example
+ * Return: 0
+ */
+int main(void)
+{
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
 }
