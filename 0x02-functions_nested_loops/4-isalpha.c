@@ -1,22 +1,21 @@
 /*
  * File: 4-isalpha.c
- * Author: Dennice Ndede
- */                  
-                     
+ * Auth: Dennice Ndede
+ */
+
 #include "main.h"
-                                                                          
+
 /**
- * _isalpha - checks for alphabetical letters.
- *@C: a character to be checked on. 
- * Return:returns 0 or 1 depending on the condition.
- */                    
+ * _isalpha - checks for alphabetic characters
+ * @c: character to check
+ * Return: 0 or 1
+ */
 int _isalpha(int c)
 {
-           if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
-	   	return (1);
-	  else
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
 		return (0);
-	
 }
 
 
