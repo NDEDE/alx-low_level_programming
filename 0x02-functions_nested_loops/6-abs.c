@@ -6,18 +6,11 @@
 #include "main.h"
 
 /**
- * _abs - outputs absolut value of integer nput
- * @n: integer to check
- * Return: n
+ * _abs - Returns absolute value of function argument
+ * @n: Convert this to absolute value
+ * Return: (0): success
  */
 int _abs(int n)
 {
-	if (n >= 0)
-		return (n);
-
-	else
-	{
-		n *= -1;
-		return (n);
-	}
+	return (n < 0 ? (n* -1) : (n));
 }
