@@ -1,4 +1,4 @@
-/**
+/*
  * File: 0-create_array.c
  * Auth: Dennice Ndede
  */
@@ -9,8 +9,8 @@
 
 /**
  * create_array - Entry point
- * @size: size of the array
- * @c: character
+ *@size: size of the array
+ *@c: character
  * Return: a pointer to the array, or NULL if it fails
  */
 char *create_array(unsigned int size, char c)
